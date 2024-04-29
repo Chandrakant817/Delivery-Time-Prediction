@@ -3,7 +3,7 @@ import os,sys
 from datetime import datetime
 
 LOG_DIR = "logs"
-#main working dir ke andar loga create karange.
+#main working dir ke andar logs create karange.
 LOG_DIR = os.path.join(os.getcwd(),LOG_DIR) #join current working dir (Delivery Time Prediction) and logs dir
 
 os.makedirs(LOG_DIR,exist_ok=True)
